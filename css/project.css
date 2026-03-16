@@ -431,7 +431,67 @@ nav>ul>li:hover{
 }
 .file-flex {
   position: relative;
+  display: flex;
 }
-footer{
-    padding: 40px ;
+.look{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.footer{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 245px;
+    background: var(--color-blue-footer);
+    display: flex;
+}
+.footer-logo{
+    width: 185px;
+}
+.footer-logo p{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 18px;
+    padding-top: 15px;
+    color: var(--color-white);
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    gap: 80px;
+}
+.menu-item h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-bottom: 3px;
+    color: var(--color-white);
+}
+.menu-item ul{
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style: none;
+    color: var(--color-white);
+    transition: text-decoration 0.3s;
+}
+.menu-item li:hover{
+    color: var(--color-yellow-text);
+    text-decoration: underline;
+}
+.menu-item li:active{
+    color: var(--color-yellow-text);
+    text-decoration: underline;    
+}
+.menu-item a{
+    display: flex;
+    gap: 7px;
+    font-size: 14px;
+    align-items: baseline;
+}
+.menu-item span{
+    color:var(--color-white);
+    font-style: normal;
 }
